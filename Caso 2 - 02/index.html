@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estaticos/css/diseño.css" type="text/css">
+</head>
+<body>
+    <h1>Ejercicio 2</h1><hr>
+    <p>Una empresa paga a sus empleados por horas trabajadas. El sueldo bruto 
+        se calcula multiplicando las horas trabajadas por la tarifa horaria del 
+        empleado. Por ley, todo empleado esta sujeto a un descuento del 15% del sueldo 
+        bruto si es que el sueldo bruto es mayor que S/. 3500; en caso contrario, solo 
+        se descuenta el 11% del sueldo bruto. El sueldo neto se calcula restando el sueldo 
+        bruto menos el importe del descuento. Dados el número de horas trabajadas y la tarifa 
+        horaria de un empleado, diseñe un algoritmo que determine el sueldo bruto, el descuento 
+        y el sueldo neto del empleado.</p>
+    <div>
+        Tarifa horaria<br>
+        <input type="text" name="txttarifa" placeholder="Escriba su sueldo..." id="fee" required><br><br>
+        Horas trabajadas<br>
+        <input type="text" name="txthoras" placeholder="Ingrese un numero..." id="hours" required><br><br>
+        <button id="procesar">Procesar</button>
+        <textarea name="area" id="resultado" cols="30" rows="10"></textarea>
+    </div> 
+</body>
+</html>
+<script type="text/javascript" src="estaticos/js/procesar.js"></script>

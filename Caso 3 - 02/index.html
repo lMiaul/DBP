@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estaticos/css/diseño.css" type="text/css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Ejercicio 3</h1><hr>
+    <p>Un curso se evalúa en base a tres prácticas calificadas P1, P2 y P3. El promedio final del curso Pf 
+    se obtiene en base a la siguiente fórmula:
+    Pf = 0.20 x P1 + 0.35 x P2 + 0.45 x P3
+    Para aprobar el curso se requiere obtener un promedio final mínimo de 13.0. Dadas las tres notas de práctica
+    de un estudiante, diseñe un algoritmo que determine el promedio final y la condición de aprobado o desaprobado.
+    </p>
+    <form action="" id="ValidarFormulario">
+        Práctica 1<br><input type="text" name="p1" id="_p1" placeholder="Ingresar primera nota..." required><br><br>
+        Prática 2<br><input type="text" name="p2" id="_p2" placeholder="Ingresar segunda nota..." required><br><br>
+        Práctica 3<br><input type="text" name="p3" id="_p3" placeholder="Ingresar tercera nota..." required><br><br>
+        <button id="procesar" type="submit">Procesar</button>
+        <textarea name="textarea" id="resultado" cols="10" rows="7"></textarea>
+    </form>    
+</body>
+</html>
+<script type="text/javascript" src="estaticos/js/procesar.js"></script>

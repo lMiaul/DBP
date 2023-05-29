@@ -1,0 +1,35 @@
+body{
+    background-color: aquamarine;
+}
+
+h1{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif, 'Times New Roman', Times, serif;
+}
+
+p{
+    border: 10px solid red; 
+    padding: 10px;
+    background-color: orange;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center, justify;
+    margin: 30px 30px;    
+}
+h2{
+
+    text-decoration: underline;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: inline-block;
+    font-weight: lighter;
+    position: relative;
+    left: 240px;
+    top: -160px;
+}
+form{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#btn{
+    position: relative;
+    left: 50px;
+}
+

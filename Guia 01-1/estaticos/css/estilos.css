@@ -1,0 +1,29 @@
+body{
+    background: peachpuff;
+}
+hr{
+    color: black;
+}
+h1{
+    text-align: center;
+    color: blue;
+    font-family: 'Times New Roman', Times, serif, Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: underline;
+
+}
+p{
+    
+    position: relative;
+    left: 550px;
+    width: 300px;
+    background-color: azure;
+    font-size: 20px;
+    font-style: italic;
+    text-align: center, justify;
+    margin: 30px 30px;
+}
+form{
+    margin: 20px 20px;
+    text-align: justify;
+    font-weight: bold;
+}

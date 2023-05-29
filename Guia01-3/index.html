@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estaticas/css/estilos.css" type="text/css">
+    <title>Document</title>
+</head>
+    <body>
+        <h1>Ejercicio 3</h1><hr>
+        <p>Una tienda ha puesto en oferta la venta un producto ofreciendo un descuento 
+        denominado 10%+10% que consiste en aplicar dos descuentos del 10%. El importe 
+        compra se calcula multiplicando el precio del producto por la cantidad de unidades 
+        adquiridas. El primer descuento es igual al 10% del importe compra. El segundo descuento 
+        es igual al 10% de la resta del importe compra menos el primer descuento. El importe del 
+        descuento total se calcula sumando el primer y el segundo descuento. El importe a pagar se 
+        calcula restando el importe compra menos el importe del descuento total. Dados el precio del 
+        producto y la cantidad de unidades adquiridas, diseñe un algoritmo que determine el importe 
+        de la compra, el importe del descuento total y el importe a pagar.</p>
+        <form action="">
+            Precio del producto<br><input type="text" name="txtprecio" id="price"><br><br>
+            Cantidad<br><input type="text" name="txtnumero" id="quantity"><br><br>
+            <input type="submit" name="btn" value="Calcular" id="btn" onclick="return calcular()">
+        </form>
+        <h2 id="text"></h2>
+    </body>
+</html>
+<script type="text/javascript" src="estaticas/js/procesar.js"></script>

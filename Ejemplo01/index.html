@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href = "estaticos/css/estilos.css" rel="stylesheet" type="text/css">
+
+    <title>Document</title>
+</head>
+<body>
+    <div class="grupo">
+        <h1>REGISTRAR CLIENTE :)</h1>
+            <form action=""> <!--action is for save the data--> 
+                Codigo<input type="text" name="txtcodigo" id="codigo"><br>
+                Nombre<input type="text" name="txtNombre" id="nombre"><br>
+                Apellidos<input type="text" name="txtApellidos" id="apellidos"><br>
+                Edad<input type="text" name="txtEdad" id="edad"><br>
+                <input type="submit" name="btn" value="Procesar" onclick="return procesarCliente()">
+            </form> 
+            <h1 id="text"></h1>
+    </div>
+</body>
+</html>
+<script type="text/javascript" src="estaticos/js/procesar.js"></script>

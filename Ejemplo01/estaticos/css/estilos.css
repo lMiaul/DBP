@@ -1,0 +1,14 @@
+body{
+    background: aqua;
+}
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 10;
+}
+.grupo{
+    background: blue;
+    width: 250px; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: white;
+}
